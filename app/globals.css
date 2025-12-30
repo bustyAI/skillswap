@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    @apply bg-white;
+  }
+}
+
+@layer components {
+  .btn-nav {
+    @apply text-black font-medium p-2 rounded-lg border border-gray-200 bg-gray-100;
+  }
+}
