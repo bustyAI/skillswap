@@ -1,11 +1,12 @@
-import { Navbar } from "./components/layout";
+import { Navbar, HeroCardRight } from "./components/layout";
 
 export default function Home() {
   return (
     <div className=" overflow-hidden">
-      <nav>
+      <div className="flex flex-row justify-between">
         <Navbar />
-      </nav>
+        <HeroCardRight />
+      </div>
     </div>
   );
 }

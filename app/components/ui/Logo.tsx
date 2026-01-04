@@ -1,5 +1,5 @@
 const Logo: React.FC = () => {
-  return <div>Logo</div>;
+  return <div className="content-center">Logo</div>;
 };
 
 export default Logo;
