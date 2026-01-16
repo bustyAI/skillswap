@@ -69,8 +69,8 @@ const HeroCardRight: React.FC = () => {
           </div>
 
           {/* Rotated card */}
-          <div className="m-auto flex h-72 w-56 rotate-[22deg] flex-col rounded-2xl bg-sky-100">
-            <div className="m-auto flex h-72 w-56 -rotate-[30deg] flex-col items-center rounded-2xl bg-white shadow-xl shadow-gray-500">
+          <div className="m-auto flex h-72 w-56 rotate-22 flex-col rounded-2xl bg-sky-100">
+            <div className="m-auto flex h-72 w-56 -rotate-30 flex-col items-center rounded-2xl bg-white shadow-xl shadow-gray-500">
               <div className="my-4 h-24 w-24 rounded-full bg-[#6BC6C4]">
                 <Image
                   className="rounded-full"
