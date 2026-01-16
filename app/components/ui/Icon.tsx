@@ -7,8 +7,8 @@ type IconProps = {
 
 const Icon: React.FC<IconProps> = ({ Icon, size, className }) => {
   return (
-    <span className={className}>
-      <Icon size={size} />
+    <span className="">
+      <Icon className={className} size={size} />
     </span>
   );
 };
