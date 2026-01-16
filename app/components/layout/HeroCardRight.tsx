@@ -55,7 +55,7 @@ const HeroCardRight: React.FC = () => {
         </div>
 
         {/* White card */}
-        <div className="relative z-10 flex w-64 flex-col rounded-xl bg-white p-4 shadow-sm">
+        <div className="relative z-10 flex w-64 flex-col rounded-xl bg-white p-8 shadow-sm">
           <div className="flex flex-row justify-between">
             <Icon className={""} Icon={IoIosArrowBack} size={28} />
             <Icon className={""} Icon={FaRegBell} size={28} />
